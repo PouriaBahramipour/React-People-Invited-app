@@ -16,6 +16,7 @@ const PeopleList: React.FC<IState> = ({ people }) => {
       );
     });
   };
+
   return <ul>{renderList()}</ul>;
 };
 
