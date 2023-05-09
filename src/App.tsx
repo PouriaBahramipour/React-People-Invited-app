@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { IState } from "./interfaces";
-import "./App.css";
 import PeopleList from "./components/PeopleList";
 import AddToList from "./components/AddToList";
+import "./App.css";
 
 function App() {
   const [people, setPeople] = useState<IState["people"]>([
